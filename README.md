@@ -8,6 +8,8 @@ Construir un laboratorio virtual para practicar redes, administración de sistem
 flowchart TD
     A((Internet)) --> B[OPNsense Firewall]
     B --> C[Internal Network]
+    B --> L[NAT]
+    
 
     C --> F[Ubuntu Server]
     E --> F[Ubuntu Server]
