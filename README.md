@@ -11,7 +11,8 @@ flowchart TD
     B --> C[Internal Network]
 
 
-    I[Equipo Anfitrión] --> E[Host-Only]
+    M[Equipo Anfitrión] --> E[Host-Only]
+    M[Equipo Anfitrión] --> K[Wazuh]
     
 
     C --> F[Ubuntu Server]
