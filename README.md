@@ -8,7 +8,7 @@ Construir un laboratorio virtual para practicar redes, administración de sistem
 flowchart TD
     A((Internet)) --> B[OPNsense Firewall]
     B --> C[Internal Network]
-    D --> E[Host-Only]
+    B --> E[Host-Only]
 
     C --> F[Ubuntu Server]
     C --> G[Kali Linux]
@@ -16,7 +16,7 @@ flowchart TD
     C --> I[Windows Server]
     C --> J[Windows 11]
 
-    D --> K[Wazuh]
+    F --> K[Wazuh]
 ```
 ## Entorno
 - Hypervisor: [VirtualBox]
