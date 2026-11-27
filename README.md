@@ -11,12 +11,15 @@ flowchart TD
     B --> E[Host-Only]
 
     C --> F[Ubuntu Server]
+    E --> F[Ubuntu Server]
     C --> G[Kali Linux]
+    E --> G[Kali Linux]
     C --> H[Metasploitable 2]
     C --> I[Windows Server]
     C --> J[Windows 11]
 
     F --> K[Wazuh]
+    
 ```
 ## Entorno
 - Hypervisor: [VirtualBox]
