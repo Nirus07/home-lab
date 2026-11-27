@@ -12,11 +12,9 @@ flowchart TD
 
 
     M[Equipo Anfitrión] --> E[Host-Only]
-    M[Equipo Anfitrión] --> K[Wazuh]
     
 
     C --> F[Ubuntu Server]
-    E --> F[Ubuntu Server]
     C --> G[Kali Linux]
     E --> G[Kali Linux]
     C --> H[Metasploitable 2]
@@ -24,6 +22,7 @@ flowchart TD
     C --> J[Windows 11]
 
     F --> K[Wazuh]
+    E --> K[Wazuh]
     
 ```
 ## Entorno
