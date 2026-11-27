@@ -6,9 +6,9 @@ Construir un laboratorio virtual para practicar redes, administración de sistem
 ## Arquitectura
 ```mermaid
 flowchart TD
-    A((Internet)) --> B[OPNsense Firewall]
+    A((Internet)) --> L[NAT Network]
+    L --> B[OPNsense Firewall]
     B --> C[Internal Network]
-    B --> L[NAT]
     E[Host-Only]
 
     C --> F[Ubuntu Server]
