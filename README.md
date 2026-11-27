@@ -4,7 +4,7 @@
 Construir un laboratorio virtual para practicar redes, administración de sistemas y monitorización de securidad
 
 ## Arquitectura
-```mermaid
+` ```mermaid `
 flowchart TD
     A((Internet)) --> B[OPNsense Firewall]
     B --> C[Internal Network]
