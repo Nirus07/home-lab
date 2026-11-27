@@ -5,7 +5,7 @@ Construir un laboratorio virtual para practicar redes, administración de sistem
 
 ## Arquitectura
 ` ```mermaid `
-`flowchart TD`
+`flowchart TD
     A((Internet)) --> B[OPNsense Firewall]
     B --> C[Internal Network]
 
@@ -16,7 +16,7 @@ Construir un laboratorio virtual para practicar redes, administración de sistem
     C --> H[Windows 11]
 
     D --> J[Wazuh]
-
+`
 ## Entorno
 - Hypervisor: [VirtualBox]
 - OPNsense []: []
