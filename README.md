@@ -9,7 +9,10 @@ flowchart TD
     A((Internet)) --> L[NAT Network]
     L --> B[OPNsense Firewall]
     B --> C[Internal Network]
-    E[Host-Only]
+
+
+    I[Equipo Anfitrión] --> E[Host-Only]
+    
 
     C --> F[Ubuntu Server]
     E --> F[Ubuntu Server]
